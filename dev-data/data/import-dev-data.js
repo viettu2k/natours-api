@@ -17,7 +17,7 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true,
   })
-  .then(() => console.log('DB connection successfull'));
+  .then(() => console.log('DB connection successfully'));
 
 // READ JSON FILE
 const tours = JSON.parse(
